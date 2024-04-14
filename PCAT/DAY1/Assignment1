@@ -1,1 +1,13 @@
+Write a detailed pseudocode for a simple program that takes a number as input, calculates the square if it's even or the cube if it's odd, and then outputs the result. Incorporate conditional and looping constructs.
 
+start
+declare a variable n
+accept n
+for(i=0;i<=n;i++)
+ if(i%2==0)
+  result=i*i;
+ else
+  result=i*i*i
+end loop
+print result
+end
