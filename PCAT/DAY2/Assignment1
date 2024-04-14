@@ -1,1 +1,21 @@
+start
+intialize values for a
+call Bubblesort(a,n)
+end
+
+
+
+function BubbleSort(a,n)                     
+for(i=0;i<n;i++)                                         
+  for(j=0;j<n-i-1;j++)                    
+    if(a[j]>a[j+1])                         
+      start loop
+       temp=a[y]
+       a[y]=a[y+1]
+       a[y+1]=temp
+       end loop
+    end loop
+  end loop
+
+
 
