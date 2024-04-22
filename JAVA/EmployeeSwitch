@@ -1,1 +1,25 @@
 
+package com.employee;
+
+public class Employeeswitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			// TODO Auto-generated method stud
+		Employee e1=new Employee(101, "swathi", 30000);
+
+			
+			
+			switch(e1.getName())
+			{
+			case "swathi":System.out.println(e1.getId());
+			break;
+			
+			case "keerthana":System.out.println(e1.getId());
+			break;
+			}
+
+	}
+
+}
+
