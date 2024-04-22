@@ -1,5 +1,5 @@
 
-package Day6;
+package com;
 
 import java.util.Scanner;
 
