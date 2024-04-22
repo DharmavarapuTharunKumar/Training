@@ -1,1 +1,28 @@
+package com.employee;
 
+public class EmployeData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e1=new Employee(101, "swathi", 30000);
+		System.out.println(e1);
+		e1.setId(102);
+		e1.setName("hari");
+		e1.setSlary(3000);
+		System.out.println(e1.getId()+" "+e1.getName()+""+e1.getSlary());
+		Employee e2=new Employee(103, "Tharun", 35000);
+	    if(e1.getId()>e2.getId())
+	    {
+	    	if(e1.getSlary()>e2.getSlary()) {
+	    		System.out.println("e1 is an old employe");
+	    	}
+	    		    }
+	    else
+    	{
+    		System.out.println("e2 is an new employee");
+    	}
+	    e2.display();
+
+	}
+
+}
