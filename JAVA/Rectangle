@@ -1,1 +1,16 @@
 
+package com;
+
+public class RectAngle {
+	private int length;
+	private int width;
+	public RectAngle(int length,int width) {
+		this.length=length;
+		this.width=width;
+	}
+	public double area() {
+		return length*width;
+	}
+
+}
+
