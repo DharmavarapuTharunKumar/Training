@@ -1,1 +1,48 @@
+package com.employee;
+
+public class Employee {
+	private int id;
+	private String name;
+	private float slary;
+	public Employee(int id, String name, float slary) {
+		super();
+		this.id = id;;
+		this.name = name;
+		this.slary = slary;
+	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public float getSlary() {
+		return slary;
+	}
+
+	public void setSlary(float slary) {
+		this.slary = slary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", slary=" + slary + "]";
+	}
+	public void display() {
+		System.out.println(id+" "+name+ " "+slary);
+	}
+
+	}
+
 
